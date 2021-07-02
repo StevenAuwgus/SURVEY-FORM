@@ -1,0 +1,96 @@
+body{
+  
+  background-image: url('https://images.unsplash.com/photo-1603760589435-097546501ffa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80') ;
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-attachement:fixed;
+  background-size:cover;
+  font-family: 'Oswald', sans-serif;
+  position:relative;
+  
+  
+  
+}
+#title{
+  text-align:center;
+  color:#2B2825;
+  text-shadow:0 0 4px #grey;
+  font-size:40px;
+  display:block;
+  margin-bottom:0px;
+}
+#description{
+  text-align:center;
+  color:#2B2825;
+  font-size:20px;
+  font-style:italic;
+  display:block;
+  margin-top:0px;
+ 
+  
+}
+
+#survey-form{
+  background-color:#DB8947;
+  width:850px;
+  margin: 0 auto;
+  display:block;
+  padding:40px 0px;
+  border-radius:20px;
+  color:#fff;
+  box-shadow: 0 0 20px #000;
+  
+  
+}
+#name, #email, #number,#submit{
+  width:600px;
+  display:block;
+  height:40px;
+  margin: 0 auto;
+  border-radius:6px;
+  border: 1px solid #fff;
+  
+  
+  
+}
+#dropdown{
+  width:610px;
+  display:block;
+  height:40px;
+  margin: 0 auto;
+  border-radius:6px;
+  border: 1px solid #fff;
+}
+#text{
+  width:600px;
+  display:block;
+  height:80px;
+  margin: 0 auto;
+  border-radius:6px;
+  border: 1px solid #fff;
+  
+}
+.name{
+  margin-left:125px;
+  margin-bottom:8px;
+  display:block;
+  font-size:25px;
+  color:#2B2825;
+}
+
+input{
+  margin-left:130px;
+  
+}
+label{
+  color:#2B2825;
+}
+#submit{
+  background-color:#2B2825;
+  color:#fff;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px #fff;
+}
+#submit:hover{
+  cursor:pointer;
+}
